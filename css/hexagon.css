@@ -1,0 +1,47 @@
+.hex-mt {
+  margin-top: -3rem;
+}
+
+.hex-mb {
+  margin-bottom: 0;
+}
+
+.hexagon {
+  margin: 0 -.5rem;
+  height: 14.75rem;
+}
+
+.green-hex, .purple-hex, .pink-hex {
+  height: 100%;
+  background: url(../img/hex-green.svg) center/cover no-repeat;
+/* Centers text in hex */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #9bc400;
+}
+
+.purple-hex {
+  background: url(../img/hex-purple.svg) center/cover no-repeat;
+  color: #8076a3;
+}
+
+.pink-hex {
+  background: url(../img/hex-pink.svg) center/cover no-repeat;
+  color: #f9c5bd;
+}
+
+.green-hex:hover, .purple-hex:hover, .pink-hex:hover {
+  height: 100%;
+  background: url(../img/hex-green-fill.svg) center/cover no-repeat;
+  color: #fff;
+}
+
+.purple-hex:hover {
+  background: url(../img/hex-purple-fill.svg) center/cover no-repeat;
+}
+
+.pink-hex:hover {
+  background: url(../img/hex-pink-fill.svg) center/cover no-repeat;
+}
