@@ -56,7 +56,10 @@ li.timeline-item::before {
 }
 
 #content {
-  background: linear-gradient(149deg, #ee9ca7, #ffdde1, #cec2f8, #8076a3);
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-size: 800% 800%;
 
   -webkit-animation: GradientAnim 48s ease infinite;

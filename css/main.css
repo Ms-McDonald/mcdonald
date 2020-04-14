@@ -1,111 +1,56 @@
-@font-face {
-  font-family: 'Bebas Light';
-  src: url(../fonts/BebasNeue-Light.otf);
-}
-@font-face {
-  font-family: 'Bebas Book';
-  src: url(../fonts/BebasNeue-Book.otf);
-}
-@font-face {
-  font-family: 'Bebas Regular';
-  src: url(../fonts/BebasNeue-Regular.otf);
-}
-@font-face {
-  font-family: 'Bebas Bold';
-  src: url(../fonts/BebasNeue-Bold.otf);
-}
 * {
   /* border: 1px solid red; */
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #fff;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bebas Bold', sans-serif;
+h1, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', cursive;
 }
 
 h1 {
   font-size: 6rem;
-  line-height: 5rem;
   margin: 1rem 0 0 0;
 }
 
-.small-h1 {
-  font-size: 3.5rem;
-  line-height: 3rem;
-}
-
 h2 {
-  font-family: 'Bebas Regular';
-  font-size: 3rem;
-  line-height: 2.5rem;
-  font-variant: small-caps;
-}
-
-.small-h2 {
   font-size: 2rem;
-  line-height: 2rem;
-  font-variant: normal;
-}
-
-.xs-h2 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  font-variant: normal;
 }
 
 h3 {
   font-size: 3rem;
-  font-variant: small-caps;
 }
 
 h4 {
-  font-family: 'Bebas Light';
-  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 3.75rem;
+  font-size: 2.75rem;
 }
 
 h5 {
-  font-family: 'Bebas Regular';
   font-size: 7rem;
   color: #8076a3;
-  font-variant: small-caps;
 }
 
 h6 {
-  font-family: 'Bebas Regular';
   font-size: 5rem;
-  line-height: 2.5rem;
-  font-variant: small-caps;
 }
 
 p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 1.1rem;
   color: #000;
+}
+
+.timeline {
+  font-family: 'Roboto Slab', serif;
 }
 
 .white-text {
   color: #fff;
-}
-
-.tall-skinny {
-  font-family: 'Bebas Light';
-  font-size: 5rem;
-}
-
-.short-bold {
-  font-family: 'Bebas Bold';
-  font-size: 4rem;
-  line-height: 3.25rem;
-}
-
-.small-bold {
-  font-family: 'Bebas Bold';
-  font-size: 2.25rem;
-  line-height: 2rem;
 }
 
 .table {
@@ -194,7 +139,7 @@ a:focus {
 }
 
 #sidebar ul li a {
-  font-family: 'Bebas Regular', sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   font-variant: small-caps;
   margin: 1rem auto;
   font-size: 2.25rem;
@@ -237,6 +182,14 @@ a.article,
 a.article:hover {
   background: #6d7fcc !important;
   color: #fff !important;
+}
+
+.blue-grad {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ---------------------------------------------------
@@ -352,11 +305,13 @@ a.article:hover {
 }
 
 .modal-dialog {
-  max-width: 600px;
+  max-width: 50vw;
 }
 
 .btn-radius {
   border-radius: 30px;
+  border-width: 2px;
+  font-size: 1.15rem;
 }
 
 .btn-outline-primary {

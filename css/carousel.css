@@ -1,0 +1,29 @@
+.carousel-indicators i{
+  background: #ffffff;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #ffffff);
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.carousel-indicators .active i {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.fullpage {
+  height: 100vh;
+}
+.far, .fas {
+  font-size: 5vw;
+  padding-bottom: 10px;
+}
